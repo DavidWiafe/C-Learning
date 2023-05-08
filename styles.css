@@ -1,0 +1,70 @@
+/* All Tags */
+h1 {
+    text-align: center;
+    background-color: coral;
+    border: coral 25px solid;
+    color: white;
+}
+
+h3 {
+    text-indent: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    text-indent: 10%;
+}
+
+/* Class */
+.SQL {
+    display: none;
+}
+.DDL ul li {
+ color: green;
+}
+.DQL ul li {
+ color: green;  
+}
+.DML ul li {
+ color: green;  
+}
+/* IDs */
+#H {
+    color: red;
+}
+#T {
+    color: red;
+}
+
+#P {
+    color: red;
+}
+#s-http {
+    color: red;
+}
+#s-domain {
+    color: orange;
+}
+#s-path {
+    color: brown;
+}
+#s-resource {
+    color: darkorange;
+}
+#S {
+    color: blue;
+}
+#Q {
+    color: purple;
+}
+#L {
+    color: orange;
+}
+/*
+#examplesite {
+    text-indent: 30px;
+}
+*/
