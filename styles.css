@@ -33,6 +33,25 @@ body {
 .DML ul li {
  color: green;  
 }
+.AI {
+    display: none;
+}
+.http {
+    display: none;
+}
+.RestFUL {
+    display: none;
+}
+.API-Info {
+    display: none;
+}
+.javaScript {
+    display: none;
+}
+
+.Welcome h2 {
+    text-align: center;
+}
 /* IDs */
 #H {
     color: red;
@@ -77,6 +96,63 @@ body {
 #p-api {
     color: green;
 }
+
+#SQL-BTN {
+    display: block;
+    margin: 25px auto 0;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 15px;
+   
+}
+
+#AI-btn {
+    display: block;
+    margin: 25px auto 0;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;  
+}
+
+#s-AI {
+ color: #FF8C00;
+}
+
+#HTTP-Btn {
+    display: block;
+    margin: 25px auto 0;
+    background-color:red;
+    color: white;
+    border-radius: 15px;  
+}
+
+#API-Btn {
+    display: block;
+    margin: 25px auto 0;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;  
+}
+
+#Rest_API-Btn {
+    display: block;
+    margin: 25px auto 0;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;  
+}
+
+#javaScript-Btn {
+    display: block;
+    margin: 25px auto 0;
+    background-color: #F0DB4F;
+    color: black;
+    border-radius: 15px;  
+}
+
+#S-JS {
+    color: #e69b00;
+} 
 /*
 #examplesite {
     text-indent: 30px;
