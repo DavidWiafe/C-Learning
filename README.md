@@ -1,7 +1,14 @@
 #Learinig 
-<p>This project contains details regarding topics (SQL,HTML,HTTP,APIs)</p>
+ <p>This project contains details regarding topics (SQL,HTML,HTTP,APIs)</p>
 
-#language
+#languages
 <ul>
-<li>Structured query language</li>
+    <li>Scripting Language</li>
+    <li>Structured query language</li>
+</ul>
+
+#APIs
+<ul>
+ <li>API</li>
+ <li>Rest-Ful API</li>
 </ul>
