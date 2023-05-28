@@ -17,7 +17,9 @@ ul {
 p {
     text-indent: 10%;
 }
-
+body {
+    background-color: bisque;
+}
 /* Class */
 .SQL {
     display: none;
@@ -62,6 +64,18 @@ p {
 }
 #L {
     color: orange;
+}
+
+#i-api {
+    color: red;
+}
+
+#a-api {
+    color: blue;
+}
+
+#p-api {
+    color: green;
 }
 /*
 #examplesite {
