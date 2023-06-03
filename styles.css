@@ -52,6 +52,12 @@ body {
 .Welcome h2 {
     text-align: center;
 }
+
+.SQL-Syntax {
+    text-indent: 5%;
+    background: lightgrey;
+    color: #4169E1;
+}
 /* IDs */
 #H {
     color: red;

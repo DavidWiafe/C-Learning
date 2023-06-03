@@ -42,10 +42,23 @@
              <br>
              <br>
              <ul>
-                 <li> CREATE </li>
+                 <li> CREATE </li> 
+                 <code class="SQL-Syntax">
+                     CREATE TABLE table_name (
+                    column1 datatype,
+                    column2 datatype,
+                    column3 datatype,
+                   ....
+                );</code>
                  <li> DROP </li>
+                  <code class="SQL-Syntax"> DROP DATABASE databasename;</code>
                  <li> ALTER </li>
+                  <code class="SQL-Syntax">ALTER TABLE table_name ADD column_name datatype; <br> 
+                    ALTER TABLE table_name DROP COLUMN column_name; <br>
+                    ALTER TABLE table_name RENAME COLUMN old_name to new_name;<br>
+                    ALTER TABLE table_name MODIFY COLUMN column_name datatype;</code>
                  <li>TRUNCATE</li>
+                 <code class="SQL-Syntax">TRUNCATE TABLE table_name;</code>
              </ul>
          </li>
           <br>
@@ -54,6 +67,9 @@
           <br>
           <ul>
               <li> SELECT </li>
+              <code class="SQL-Syntax">SELECT * FROM table_name;<br>
+                SELECT column_name1,column_name2 FROM table_name;
+              </code>
           </ul>
          </li>
          <br>
@@ -62,8 +78,11 @@
             <br>
              <ul>
                  <li>INSERT</li>
+                 <code class="SQL-Syntax">INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...); </code>
                  <li>UPDATE</li>
+                 <code class="SQL-Syntax">UPDATE table_name SET column1 = value WHERE condition; </code>
                  <li>DELETE</li>
+                 <code class="SQL-Syntax">DELETE FROM table_name WHERE condition;</code>
              </ul>
          </li>
          <br>
