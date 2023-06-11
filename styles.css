@@ -20,6 +20,24 @@ p {
 body {
     background-color: bisque;
 }
+
+code:hover {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
 /* Class */
 .SQL {
     display: none;
@@ -81,26 +99,12 @@ body {
 #s-resource {
     color: darkorange;
 }
-#S {
-    color: blue;
-}
-#Q {
+#SQL-S, #SQL-Q, #SQL-L {
     color: purple;
 }
-#L {
-    color: orange;
-}
 
-#i-api {
-    color: red;
-}
-
-#a-api {
+#API-A, #API-P, #API-I {
     color: blue;
-}
-
-#p-api {
-    color: green;
 }
 
 #SQL-BTN {
@@ -159,6 +163,27 @@ body {
 #S-JS {
     color: #e69b00;
 } 
+
+#HTTP-img {
+    display: block;
+    margin: 0 auto;
+}
+
+#HTTP-Get {
+    color: green;
+}
+
+#HTTP-Post {
+    color: orange;
+}
+
+#HTTP-Put {
+    color: rgb(0, 255, 221);
+}
+
+#HTTP-Delete {
+    color: red;
+}
 /*
 #examplesite {
     text-indent: 30px;

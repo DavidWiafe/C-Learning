@@ -43,7 +43,6 @@ aiBtn.addEventListener('click',function( ) {
 }
 );
 
-
 var httpBtn = document.querySelector('#HTTP-Btn');
 var httpDiv = document.querySelector('.http');
 var hideHTTP = true;
