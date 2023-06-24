@@ -3,7 +3,9 @@ let h1_ = document.querySelector("h1");
 var SQLDiv = document.querySelector('.SQL');
 
 var hideSQL = true;
-
+var count = 1;
+//1. Right Click, 2. Select Console, 3. see 'Display Count = 2' 
+console.log("Display Count = " + count);
 // run once 'SQL' button is click 
 SqlBtn.addEventListener('click',function( ) {
     console.log(" Clicked hideSQL = " + hideSQL)

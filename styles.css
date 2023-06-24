@@ -76,6 +76,9 @@ table {
     background: lightgrey;
     color: #4169E1;
 }
+.javaScript-code-div {
+    background-color: black;
+}
 /* IDs */
 #H {
     color: red;
@@ -183,6 +186,16 @@ table {
 
 #HTTP-Delete {
     color: red;
+}
+
+#javaScript-Code-Console {
+    background-color: black;
+    color: yellow;
+}
+#javaScript-Code-Console-Comment {
+    color: green;
+    text-align: left;
+    margin-left: 0;
 }
 /*
 #examplesite {
